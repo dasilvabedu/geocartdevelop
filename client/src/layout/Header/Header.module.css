@@ -1,0 +1,74 @@
+.wrapper {
+  position: relative;
+  z-index: 2000;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  padding: 0 16px;
+  background-color: white;
+}
+
+.logoImage {
+  display: block;
+  max-width: 132px;
+  height: auto;
+}
+
+.actions {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: auto;
+}
+
+.link {
+  margin-right: 24px;
+  color: #808080;
+  transition: color 200ms ease-in-out;
+}
+
+.activeLink,
+.link:hover {
+  color: #318EDA;
+}
+
+.signInButton {
+  margin-left: 32px;
+  color: #808080;
+}
+
+.signInButton:hover {
+  color: #318EDA;
+}
+
+.signInButton::before {
+  content: '';
+  position: absolute;
+  left: -10px;
+  height: 100%;
+  width: 1px;
+  background-color: #DEDEDE;
+}
+
+.signInButtonIcon {
+  font-size: 20px;
+}
+
+.signInButtonText {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.locationIcon {
+  color: #808080;
+  margin-right: 12px;
+}
+
+.autocompleteOptionTitle {
+  display: block;
+  font-weight: 700;
+}
+
+.autocompleteOptionSubtitle {
+  color: #777
+}
