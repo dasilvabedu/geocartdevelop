@@ -177,7 +177,7 @@ GEM
       pry (~> 0.13.0)
     psych (3.1.0)
     public_suffix (4.0.3)
-    puma (3.12.4)
+    puma (3.12.6)
     rack (2.2.2)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
@@ -305,7 +305,7 @@ DEPENDENCIES
   listen (>= 3.0.5, < 3.2)
   pg (>= 0.18, < 2.0)
   pry-byebug
-  puma (~> 3.12.0)
+  puma (~> 3.12.6)
   rails (~> 6.0.0.rc1)
   rails-i18n (~> 5.1)
   rspec-rails (~> 3.8)
