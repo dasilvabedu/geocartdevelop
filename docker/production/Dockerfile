@@ -4,7 +4,7 @@ RUN mkdir -p /app/client
 WORKDIR /app/client
 
 COPY client/package.json ./
-RUN yarn install
+RUN yarn install --network-timeout 1000000
 
 COPY client ./
 RUN yarn build

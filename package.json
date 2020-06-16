@@ -58,5 +58,13 @@
   },
   "devDependencies": {
     "postcss": "^7.0.32"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dasilvabedu/geocartdevelop.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dasilvabedu/geocartdevelop/issues"
+  },
+  "homepage": "https://github.com/dasilvabedu/geocartdevelop#readme"
 }
